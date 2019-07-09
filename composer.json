@@ -1,0 +1,20 @@
+{
+    "name": "bolt/markup",
+    "description": "An extension to allow unsafe markdown and HTML",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [{"name": "Pacharapol Withayasakpunt", "email": "patarapolw@gmail.com"}
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extensions\\Bolt\\Markup\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extensions\\Bolt\\Markup\\MarkupExtension"
+    }
+}
