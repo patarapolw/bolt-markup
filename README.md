@@ -5,6 +5,13 @@ By default, both [Markdown field](https://docs.bolt.cm/3.6/fields/markdown#input
 But certain markdown specification requires this, e.g.
 - \<URL>  as a shorthand for \[URL](URL)
 
+Also, 
+
+```
+<?php
+// code goes here
+```
+
 Also, ability to customize markdown might lead to custom markdown specification... e.g. Furigana and Adding classes to markdown.
 
 Anyway, I made this for the time being for `<`.
